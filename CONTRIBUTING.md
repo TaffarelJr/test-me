@@ -269,13 +269,13 @@ This guide is based on the [contributing.md][contrib] website.
 
 <!-- GitHub Repo URIs (alphabetical by name) -->
 
-[ghDiscussions]: https://github.com/TaffarelJr/.template-nuget/discussions
-[ghEnhancement]: https://github.com/TaffarelJr/.template-nuget/issues/new?template=02_enhancement.yml
-[ghIssues]: https://github.com/TaffarelJr/.template-nuget/issues
-[ghNewBug]: https://github.com/TaffarelJr/.template-nuget/issues/new?template=03_bug_report.yml
-[ghNewFeature]: https://github.com/TaffarelJr/.template-nuget/issues/new?template=01_new_feature.yml
-[ghNewIssue]: https://github.com/TaffarelJr/.template-nuget/issues/new?template=04_performance_issue.yml
-[ghWiki]: https://github.com/TaffarelJr/.template-nuget/wiki
+[ghDiscussions]: https://github.com/TaffarelJr/test-me/discussions
+[ghEnhancement]: https://github.com/TaffarelJr/test-me/issues/new?template=02_enhancement.yml
+[ghIssues]: https://github.com/TaffarelJr/test-me/issues
+[ghNewBug]: https://github.com/TaffarelJr/test-me/issues/new?template=03_bug_report.yml
+[ghNewFeature]: https://github.com/TaffarelJr/test-me/issues/new?template=01_new_feature.yml
+[ghNewIssue]: https://github.com/TaffarelJr/test-me/issues/new?template=04_performance_issue.yml
+[ghWiki]: https://github.com/TaffarelJr/test-me/wiki
 
 <!-- Public URIs (alphabetical by name) -->
 

@@ -104,9 +104,9 @@ from the [Remark][remark] repo.
 
 <!-- GitHub Repo URIs (alphabetical by name) -->
 
-[ghDiscussions]: https://github.com/TaffarelJr/.template-nuget/discussions
-[ghIssues]: https://github.com/TaffarelJr/.template-nuget/issues
-[ghWiki]: https://github.com/TaffarelJr/.template-nuget/wiki
+[ghDiscussions]: https://github.com/TaffarelJr/test-me/discussions
+[ghIssues]: https://github.com/TaffarelJr/test-me/issues
+[ghWiki]: https://github.com/TaffarelJr/test-me/wiki
 
 <!-- Public URIs (alphabetical by name) -->
 
