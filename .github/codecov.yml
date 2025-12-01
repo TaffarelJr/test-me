@@ -53,9 +53,9 @@ flag_management:
 
 component_management:
   individual_components:
-    - component_id: placeholder # Identifier that must never change
-      name: Placeholder # Display name that can be changed freely
-      paths: [src/Placeholder/**]
+    - component_id: test-me # Identifier that must never change
+      name: RJ.TestMe # Display name that can be changed freely
+      paths: [src/RJ.TestMe/**]
 
 #───────────────────────────────────────────────────────────────────────────────
 # Pull request comment settings
