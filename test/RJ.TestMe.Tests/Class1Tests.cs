@@ -74,5 +74,19 @@ namespace RJ.TestMe
             // Assert
             Assert.Equal(2, result);
         }
+
+        [Fact]
+        public void TestDivide_Double()
+        {
+            // Arrange
+            const double a = 6.0;
+            const double b = 3.0;
+
+            // Act
+            var result = Class1.Divide(a, b);
+
+            // Assert
+            Assert.Equal(2.0, result);
+        }
     }
 }

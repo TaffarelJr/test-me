@@ -51,5 +51,16 @@ namespace RJ.TestMe
         {
             return a / b;
         }
+
+        /// <summary>
+        /// Divides the first double by the second and returns the result.
+        /// </summary>
+        /// <param name="a">The dividend.</param>
+        /// <param name="b">The divisor.</param>
+        /// <returns>The quotient of the two doubles.</returns>
+        public static double Divide(double a, double b)
+        {
+            return a / b;
+        }
     }
 }
