@@ -10,7 +10,8 @@ jobs:
   build-test-pack:
     name: Build, Test, and Pack
     permissions:
-      contents: read
+      contents: write # Needed by the reusable workflow
+      pull-requests: write # Needed by the reusable workflow
     uses: ./.github/workflows/continuous-integration.yml
     secrets: inherit
 
