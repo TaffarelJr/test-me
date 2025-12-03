@@ -32,5 +32,19 @@ namespace RJ.TestMe
             Assert.Equal(2, Class1.Multiply(1));
 #endif
         }
+
+        [Fact]
+        public void TestAdd()
+        {
+            // Arrange
+            const int a = 5;
+            const int b = 3;
+
+            // Act
+            var result = Class1.Add(a, b);
+
+            // Assert
+            Assert.Equal(8, result);
+        }
     }
 }
