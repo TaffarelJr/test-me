@@ -174,10 +174,11 @@ jobs:
       - name: Collect test results
         if: always() && steps.run-tests.conclusion != 'skipped'
         run: |
-          New-Item -Path 'publish/TestResults' -ItemType Directory
+          New-Item -Path 'publish/TestResults' -ItemType Directory -Force
           Get-ChildItem -Path 'test' -Recurse -Directory -Filter 'TestResults' `
           | ForEach-Object {
             $targetDir = Join-Path 'publish/TestResults' $_.Parent.Name
+            New-Item -Path $targetDir -ItemType Directory -Force | Out-Null
             Copy-Item -Path (Join-Path $_.FullName '*') -Destination $targetDir -Recurse
           }
 

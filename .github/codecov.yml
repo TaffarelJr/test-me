@@ -53,7 +53,7 @@ flag_management:
 
 component_management:
   individual_components:
-    - component_id: test-me # Identifier that must never change
+    - component_id: test-me # kebab-case, must never change
       name: RJ.TestMe # Display name that can be changed freely
       paths: [src/RJ.TestMe/**]
 
