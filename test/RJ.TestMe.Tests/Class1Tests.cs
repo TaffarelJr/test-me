@@ -46,5 +46,33 @@ namespace RJ.TestMe
             // Assert
             Assert.Equal(8, result);
         }
+
+        [Fact]
+        public void TestSubtract()
+        {
+            // Arrange
+            const int a = 5;
+            const int b = 3;
+
+            // Act
+            var result = Class1.Subtract(a, b);
+
+            // Assert
+            Assert.Equal(2, result);
+        }
+
+        [Fact]
+        public void TestDivide()
+        {
+            // Arrange
+            const int a = 6;
+            const int b = 3;
+
+            // Act
+            var result = Class1.Divide(a, b);
+
+            // Assert
+            Assert.Equal(2, result);
+        }
     }
 }
