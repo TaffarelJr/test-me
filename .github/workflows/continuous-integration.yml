@@ -29,6 +29,11 @@ on:
       - "**/.git*"
       - "LICENSE"
 
+  # Triggered when pull requests are merged
+  # (required to establish next baseline for Codecov)
+  push:
+    branches: [main]
+
   # Can be called by other workflows
   workflow_call:
     outputs:
