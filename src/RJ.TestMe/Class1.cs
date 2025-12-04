@@ -1,3 +1,5 @@
+using System;
+
 namespace RJ.TestMe
 {
     /// <summary>
@@ -61,6 +63,17 @@ namespace RJ.TestMe
         public static double Divide(double a, double b)
         {
             return a / b;
+        }
+
+        /// <summary>
+        /// Raises a to the power of b and returns the result.
+        /// </summary>
+        /// <param name="a">The base.</param>
+        /// <param name="b">The exponent.</param>
+        /// <returns>The result of a raised to the power of b.</returns>
+        public static double Power(double a, double b)
+        {
+            return Math.Pow(a, b);
         }
     }
 }
