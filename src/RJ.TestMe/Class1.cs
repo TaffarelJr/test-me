@@ -75,5 +75,15 @@ namespace RJ.TestMe
         {
             return Math.Pow(a, b);
         }
+
+        /// <summary>
+        /// Calculates the square root of a given number.
+        /// </summary>
+        /// <param name="a">The number to calculate the square root of.</param>
+        /// <returns>The square root of the given number.</returns>
+        public static double SquareRoot(double a)
+        {
+            return Math.Sqrt(a);
+        }
     }
 }
